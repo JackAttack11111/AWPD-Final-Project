@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+    padding-top: 0;
+    position: relative;
+    background-image: url(img/wireframemain.png);
+}
+/* Color Palette
+
+Primary: rgb(242, 174, 46)
+Secondary: rgb(0, 172, 90)
+Background: rgb(0, 0, 0)
+Secondary Background: rgb(23, 23, 23)
+Accent: rgb(242, 40, 40)
+Text Primary: rgb(5, 199, 242)
+Text Secondary: rgb(242, 242, 242) 
+*/
+.headnavbar {
+    margin: 0;
+    background: black;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.extendedNav {
+    /* About */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navTitle {
+    /* Atlantic Watch Pipes & Drums */
+    width: 610px;
+    height: 120px;
+    left: 178px;
+    right: 1132px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+    padding-top: 250px;
+    display: flex;
+    align-content:end;
+}
+
+.title-text > h1 {
+    font-size: 96px;
+    font-family: 'DM Serif Display', sans-serif;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-family: "Markazi Text", sans-serif;
+    font-size: 72px;
+    color: rgb(242, 174, 46);
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(0, 172, 90);
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 42px;
+    font-family: "DM Serif Display", sans-serif;
+    line-height: 58px;
+}
+
+h4 {
+    color: rgb(242, 242, 242);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+}
+
+.merch-text h3 {
+    color: rgb(242, 174, 46);
+    font-size: 72px !important;
+}
+
+.indexbg {
+    background-image: url(img/backgrounds/indexBg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 840px;
+    align-items: center;
+}
+
+.title-button {
+    margin-top: 45px;
+}
+
+button {
+    border-radius: 15px;
+    height: 88px;
+    font-family: 'DM Serif Display', sans-serif;
+    border: none;
+    font-size: 42px;
+}
+
+button.primary {
+    background-color: rgb(0, 172, 90);
+    color: rgb(0, 0, 0);
+}
+
+button#signup {
+    padding: 0px 50px;
+}
+
+button.secondary {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 172, 90);
+    border: rgb(0, 172, 90) solid 5px;
+    padding: 0px 15px;
+}
+
+button.primary:hover {
+    background-color: rgb(0, 136, 70);
+}
+
+button.secondary:hover {
+    background-color: rgb(0, 172, 90);
+    color:rgb(0, 0, 0);
+}
+
+.spacer {
+    background-color: rgb(23, 23, 23);
+    color: rgb(242, 174, 46);
+    height: 256px;
+    text-align: center;
+}
+
+.current-promo {
+    text-align: center;
+}
+
+.year-in-review {
+    background-image: url(img/media/yirimg.png);
+}
+
+.practiceimg {
+    background-image: url(img/media/practiceimg.png);
+}
+
+.ddayimg {
+    background-image: url(img/media/ddayimg.png);
+}
+
+.hover-multimedia {
+    opacity: 50%;
+}
+
+.product-item {
+    background-color: rgb(32, 32, 32);
+    padding: 21px;
+    border-radius: 25px;
+    width: 317px;
+}
+
+.product-item > h4 {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.product-item > p {
+    color: rgb(242, 174, 46);
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    line-height: 29px;
+}
+
+.product-hover {
+    background-color:rgb(95, 95, 95);
+}
+
+.row {
+    padding-left: 10px;
+}

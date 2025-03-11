@@ -1,0 +1,22 @@
+[
+    {
+        "product": "T-Shirt",
+        "productImage": "img/product/tshrit.png",
+        "price": "$20"
+    },
+    {
+        "product": "Pint Glass",
+        "productImage": "img/product/glass.png",
+        "price": "$10"
+    },
+    {
+        "product": "Legacy Mug",
+        "productImage": "img/product/mug.png",
+        "price": "$5"
+    },
+    {
+        "product": "Drumhead",
+        "productImage": "img/product/drumhead.png",
+        "price": "$500"
+    }
+]
