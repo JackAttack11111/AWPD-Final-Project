@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>helo</title>
+        <title>Store - AWP&D</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
         rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
         crossorigin="anonymous">
@@ -11,10 +11,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="style.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
-    <body style="background-image: url(img/shopwireframe.png);">
+    <body>
     <!--Nav Bar-->
     <div class="container-fluid headnavbar">
         <div class="row">
@@ -46,17 +46,21 @@
         <div class="row" style="padding-top: 101px; padding-left: 10px;">
             <div class="col merch-text"><h3>Merchandise</h3></div>
         </div>
+        <!--Store Contents-->
         <div class="row">
             <div class="col mt-4" v-for="(x, index) in shop" >
+                <a :href="x.link">
                 <div class="product-item">
                     <img :src="x.productImage">
                     <h4>Atlantic Watch Pipes & Drums <br> {{ x.product }}</h4>
                     <p>{{ x.price }} USD</p>
                 </div>
+                </a>
             </div>
+            <!--Spacer to make contents look nicer-->
             <div class="col-3"></div>
         </div>
     </div>
-    <script src="main.js"></script>
     </body>
+    <script src="main.js"></script>
 </html>

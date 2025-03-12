@@ -2,7 +2,6 @@ body {
     background-color: black;
     padding-top: 0;
     position: relative;
-    background-image: url(img/wireframemain.png);
 }
 /* Color Palette
 
@@ -193,7 +192,7 @@ button.secondary:hover {
 }
 
 .product-hover {
-    background-color:rgb(95, 95, 95);
+    background-color:rgb(68, 68, 68);
 }
 
 .row {

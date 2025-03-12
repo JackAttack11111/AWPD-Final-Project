@@ -12,7 +12,7 @@ $(document).ready(() => {
         $(event.currentTarget).removeClass('hover-multimedia')
       });
 
-      $('.product-item').on('mouseenter', (event) => {
+    $('.product-item').on('mouseenter', (event) => {
         $(event.currentTarget).addClass('product-hover')
       }).on('mouseleave', (event) => {
         $(event.currentTarget).removeClass('product-hover')
