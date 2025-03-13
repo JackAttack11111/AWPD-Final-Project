@@ -198,3 +198,61 @@ button.secondary:hover {
 .row {
     padding-left: 10px;
 }
+
+.prod-desc {
+    background-color: rgb(32, 32, 32);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.product-text > h1 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+}
+
+.product-text > h2 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.product-text > h3 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.product-text > p {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-contact {
+    box-sizing: border-box;
+    background-color: rgb(0, 172, 90);
+    color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    width: 490px;
+}
+
+button.payment-contact:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 172, 90);
+    border: rgb(0, 172, 90) solid 5px;
+}
