@@ -154,6 +154,18 @@ button.secondary:hover {
     text-align: center;
 }
 
+.mainMediaLink {
+    color: rgb(242, 174, 46);
+    text-align: center;
+}
+
+.mainMediaLink > h3 {
+    vertical-align: middle;
+    font-size: 92px;
+    line-height: 132px;
+    margin: 318px 0px
+}
+
 .year-in-review {
     background-image: url(img/media/yirimg.png);
 }
@@ -201,7 +213,7 @@ button.secondary:hover {
 
 .prod-desc {
     background-color: rgb(32, 32, 32);
-    border-radius: 25px;
+    border-radius: 25px 0px 0px 25px;
     padding: 40px;
 }
 
@@ -228,6 +240,14 @@ button.secondary:hover {
     font-weight: bold;
 }
 
+.product-text > h4 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+}
+
 .product-text > p {
     color: rgb(242, 242, 242);
     font-family: 'Inter', sans-serif;
@@ -249,6 +269,15 @@ button.secondary:hover {
     height: 80px;
     text-align: center;
     width: 490px;
+}
+
+.bassdrum {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    font-style: italic;
 }
 
 button.payment-contact:hover {
