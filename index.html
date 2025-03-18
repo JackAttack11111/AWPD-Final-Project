@@ -14,9 +14,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
-    <body>
+    <body style="background-image: url(img/wireframemain.png)">
     <!--Nav Bar-->
-    <div class="container-fluid headnavbar">
+        <div class="container-fluid headnavbar">
         <div class="row">
                 <div class="col-1"><a href="/index.html">
                     <img src="/img/icon/awpdlogo.png" alt="AWPD Logo">
@@ -26,22 +26,30 @@
                 </div>
                 <div class="col"></div>
                 <div class="col-1 extendedNav">
-                    <h2>About</h2>
+                    <a href="/about.html">
+                        <h2>About</h2>
+                    </a>
                 </div>
                 <div class="col-1 extendedNav">
-                    <h2>Contact</h2>
-                </div>
-                <div class="col-1 extendedNav">y
-                    <h2>Practice<br>Lessons</h2>
+                    <a href="/contact.html">
+                        <h2>Contact</h2>
+                    </a>
                 </div>
                 <div class="col-1 extendedNav">
-                    <h2>D-Day<br>Events</h2>
+                    <a href="/practice.html">
+                        <h2>Practice<br>Lessons</h2>
+                    </a>
+                </div>
+                <div class="col-1 extendedNav">
+                    <a href="/dday.html">
+                        <h2>D-Day<br>Events</h2>
+                    </a>
                 </div>
                 <div class="col-1 extendedNav">
                     <h2>More</h2>
                 </div>
         </div>
-    </div>
+        </div>
     <!--Main Page Image-->
     <div class="container-fluid indexbg">
         <div class="row title">
@@ -70,9 +78,23 @@
     <!--Multimedia Links-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col mainMediaLink year-in-review"><h3>Years In<br>Review</h3></div>
-            <div class="col mainMediaLink practiceimg"><h3>Join Us<br>For Practice</h3></div>
-            <div class="col mainMediaLink ddayimg"><h3>D-Day<br>Events</h3></div>
+            <div class="col year-in-review"><a href="yearinreview.html" class="mainMediaLink"><h3>Years In<br>Review</h3></a></div>
+            <div class="col practiceimg"><a href="practice.html" class="mainMediaLink"><h3>Join Us<br>For Practice</h3></a></div>
+            <div class="col ddayimg"><a href="dday.html" class="mainMediaLink"><h3>D-Day<br>Events</h3></a></div>
+        </div>
+    </div>
+    <!--Paypal Link-->
+    <div class="container-fluid">
+        <div class="row mt-5 paypal">
+            <div class="col-3"><img src="img/promo/paypal.png"></div>
+            <div class="col-1"></div>
+            <div class="col-6 justify-content-center">
+                <h1 class="paypal-text">Scan our QR Code to donate <br> or</h1>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col"><button id="paypalButton">Donate Via Paypal Giving Fund</button></div>
+                </div>
+            </div>
         </div>
     </div>
     </body>

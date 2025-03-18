@@ -32,6 +32,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(242, 40, 40) !important;
+}
+
+.extendedNav a:hover > h2 {
+    color: rgb(242, 40, 40) !important;
+}
+
 .navTitle {
     /* Atlantic Watch Pipes & Drums */
     width: 610px;
@@ -57,6 +65,26 @@ a {
     text-align: center;
     line-height: 100px;
     letter-spacing: 0px;
+}
+
+.paypal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paypal-text {
+    font-family: "DM Serif Display", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 99px;
+}
+
+#paypalButton {
+    background-color: rgb(242, 174, 46);
+    color: rgb(0, 0, 0);
+    padding: 0px 25px;
 }
 
 h1 {
@@ -163,7 +191,7 @@ button.secondary:hover {
     vertical-align: middle;
     font-size: 92px;
     line-height: 132px;
-    margin: 318px 0px
+    padding: 314px 0px
 }
 
 .year-in-review {
@@ -176,10 +204,6 @@ button.secondary:hover {
 
 .ddayimg {
     background-image: url(img/media/ddayimg.png);
-}
-
-.hover-multimedia {
-    opacity: 50%;
 }
 
 .product-item {

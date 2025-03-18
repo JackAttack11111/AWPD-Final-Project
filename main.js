@@ -1,3 +1,5 @@
+//Do not come in this file and change anything unless you know Web-based Javascript or you are Jack Konar
+
 //JAVASCRIPT
 window.addEventListener('load', function() {
     document.button.style.transition = 0
@@ -6,10 +8,22 @@ window.addEventListener('load', function() {
 
 //JQUERY JS
 $(document).ready(() => {
-    $('.mainMediaLink').on('mouseenter', (event) => {
-        $(event.currentTarget).addClass('hover-multimedia')
+    $('.year-in-review').on('mouseenter', (event) => {
+        $(event.currentTarget).css('background-image', 'url(img/media/yirhover.png)')
       }).on('mouseleave', (event) => {
-        $(event.currentTarget).removeClass('hover-multimedia')
+        $(event.currentTarget).css('background-image', 'url(img/media/yirimg.png)')
+      });
+
+    $('.practiceimg').on('mouseenter', (event) => {
+        $(event.currentTarget).css('background-image', 'url(img/media/practicehover.png)')
+      }).on('mouseleave', (event) => {
+        $(event.currentTarget).css('background-image', 'url(img/media/practiceimg.png)')
+      });
+      
+    $('.ddayimg').on('mouseenter', (event) => {
+        $(event.currentTarget).css('background-image', 'url(img/media/ddayhover.png)')
+      }).on('mouseleave', (event) => {
+        $(event.currentTarget).css('background-image', 'url(img/media/ddayimg.png)')
       });
 
     $('.product-item').on('mouseenter', (event) => {
@@ -28,7 +42,7 @@ const vue_app = Vue.createApp({
     },
     data() {
       return {
-          // This holds your storedata.json data.
+          // This holds storedata.json data.
           shop: [],
     }
   },
