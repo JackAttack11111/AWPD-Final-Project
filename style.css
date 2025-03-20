@@ -81,10 +81,21 @@ a:hover {
     line-height: 99px;
 }
 
-#paypalButton {
+.button-center {
+    text-align: center;
+}
+
+.paypalButton {
     background-color: rgb(242, 174, 46);
     color: rgb(0, 0, 0);
     padding: 0px 25px;
+}
+
+.paypalButtonHover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(242, 174, 46);
+    padding: 0px 25px;
+    border: solid 5px rgb(242, 174, 46);
 }
 
 h1 {

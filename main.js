@@ -26,6 +26,12 @@ $(document).ready(() => {
         $(event.currentTarget).css('background-image', 'url(img/media/ddayimg.png)')
       });
 
+    $('.paypalButton').on('mouseenter', (event) => {
+      $(event.currentTarget).removeClass('paypalButton').addClass('paypalButtonHover')
+    }).on('mouseleave', (event) => {
+      $(event.currentTarget).removeClass('paypalButtonHover').addClass('paypalButton')
+    });
+
     $('.product-item').on('mouseenter', (event) => {
         $(event.currentTarget).addClass('product-hover')
       }).on('mouseleave', (event) => {
