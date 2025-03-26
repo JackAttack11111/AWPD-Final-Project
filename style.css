@@ -354,3 +354,22 @@ button.payment-contact:hover {
     font-weight: normal;
     text-align: center;
 }
+
+.subtext > p {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 34px;
+    color: rgb(242, 242, 242);
+    font-weight: normal;
+    text-align: center;
+    line-height: normal;
+}
+
+.img-resize-practice {
+    width: auto;
+    height: 550px;
+    margin-bottom: 2rem;
+}
+
+.practice-about {
+    padding: 0px 60px;
+}
