@@ -355,6 +355,12 @@ button.payment-contact:hover {
     font-weight: normal;
 }
 
+.subtext > h4 {
+    font-size: 32px;
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: normal;
+}
+
 .subtext > p {
     font-family: 'Markazi Text', sans-serif;
     font-size: 34px;
@@ -383,4 +389,10 @@ button.payment-contact:hover {
 .about-img {
     width: 800px;
     height: auto;
+}
+
+.footer {
+    background-color: rgb(68, 68, 68);
+    font-family: 'Markazi Text', sans-serif;
+    color: rgb(242, 242, 242);
 }

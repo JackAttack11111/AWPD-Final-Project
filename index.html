@@ -21,33 +21,34 @@
                 <div class="col-1"><a href="/index.html">
                     <img src="/img/icon/awpdlogo.png" alt="AWPD Logo">
                 </a></div>
-                <div class="col-3 navTitle">
+                <div class="col-3 d-none d-xl-flex navTitle">
                     <h1>Atlantic Watch Pipes &<br>Drums</h1>
                 </div>
                 <div class="col"></div>
-                <div class="col-1 extendedNav">
+                <div class="col-1 d-none d-xl-flex extendedNav">
                     <a href="/about.html">
                         <h2>About</h2>
                     </a>
                 </div>
-                <div class="col-1 extendedNav">
+                <div class="col-1 d-none d-xl-flex extendedNav">
                     <a href="/contact.html">
                         <h2>Contact</h2>
                     </a>
                 </div>
-                <div class="col-1 extendedNav">
+                <div class="col-1 d-none d-xl-flex extendedNav">
                     <a href="/practice.html">
                         <h2>Practice<br>Lessons</h2>
                     </a>
                 </div>
-                <div class="col-1 extendedNav">
+                <div class="col-1 d-none d-xl-flex extendedNav">
                     <a href="/dday.html">
                         <h2>D-Day<br>Events</h2>
                     </a>
                 </div>
-                <div class="col-1 extendedNav">
+                <div class="col-1 d-none d-xl-flex extendedNav">
                     <h2>More</h2>
                 </div>
+                <div class="col-1 d-xl-none mobile-popout"><button class="mobile-nav-button">=</button></div>
         </div>
         </div>
     <!--Main Page Image-->
@@ -58,8 +59,8 @@
         </div>
         <div class="row title-button">
             <div class="col-7"></div>
-            <div class="col-2"><button class="primary" id="signup">Sign Up</button></div>
-            <div class="col"><button class="secondary">Learn About Us</button></div>
+            <div class="col-2"><button onclick="window.location.href = 'contact.html'" class="primary" id="signup">Sign Up</button></div>
+            <div class="col"><button onclick="window.location.href = 'about.html'" class="secondary">Learn About Us</button></div>
         </div>
     </div>
     <!--Announcement Space Breaker-->
@@ -91,6 +92,24 @@
             <div class="col-6 justify-content-center button-center">
                 <h1 class="paypal-text">Scan our QR Code to donate <br> or</h1>
                 <button class="paypalButton">Donate Via Paypal Giving Fund</button>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid footer py-5">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-3 d-flex flex-column">
+                <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
+                <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
+                <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+            </div>
+            <div class="col-3 d-flex flex-column align-content-around">
+                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+            </div>
+            <div class="col-3">
+                <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>

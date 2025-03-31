@@ -9,6 +9,10 @@
     - Sub-change 1
         - Change Desc.
 
+### [03/31/2025] @ 00:00 AP.M
+- Added Mobile Support
+    - Working on supporting index.html
+- Added actual footer to pages
 
 ### [03/27/2025] @ 11:52 A.M
 - Created about.html
