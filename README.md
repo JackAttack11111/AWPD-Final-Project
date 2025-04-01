@@ -9,8 +9,13 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/01/2025] @ 00:00 AP.M
+- Optimized File Location
+    - Merged 'icon' and 'icons' folder into 'icons'
+- Added more optimization for mobile support in index.html
+
 ### [03/31/2025] @ 00:00 AP.M
-- Added Mobile Support
+- Begun Mobile Support
     - Working on supporting index.html
 - Added actual footer to pages
 

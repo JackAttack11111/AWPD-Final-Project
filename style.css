@@ -22,9 +22,6 @@ Text Secondary: rgb(242, 242, 242)
 
 .extendedNav {
     /* About */
-display: flex;
-flex-direction: row;
-align-items: center;
 justify-content: flex-end;
 }
 
@@ -53,7 +50,7 @@ a:hover {
     align-items: center;
 }
 
-.title {
+.title-spacer {
     padding-top: 250px;
     display: flex;
     align-content:end;
@@ -188,6 +185,14 @@ button.primary:hover {
 button.secondary:hover {
     background-color: rgb(0, 172, 90);
     color:rgb(0, 0, 0);
+}
+
+button.mobile-nav-popout {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
 }
 
 .spacer {
@@ -395,4 +400,8 @@ button.payment-contact:hover {
     background-color: rgb(68, 68, 68);
     font-family: 'Markazi Text', sans-serif;
     color: rgb(242, 242, 242);
+}
+
+.fs-1 {
+    line-height: normal !important;
 }
