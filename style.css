@@ -142,12 +142,15 @@ h4 {
     font-size: 72px !important;
 }
 
+.index-text {
+    height: 840px;
+    align-items: center;
+}
+
 .indexbg {
     background-image: url(img/backgrounds/indexBg.png);
     background-position: left;
     background-repeat: no-repeat;
-    height: 840px;
-    align-items: center;
 }
 
 .title-button {
@@ -404,4 +407,14 @@ button.payment-contact:hover {
 
 .fs-1 {
     line-height: normal !important;
+}
+
+@media (max-width: 991.98px) {
+    .mobile-indexbg {
+        background-image: url(img/backgrounds/mobile/mIndexBg.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
 }
