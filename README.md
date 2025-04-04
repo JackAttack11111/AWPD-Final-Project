@@ -9,6 +9,10 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/04/2025] @ 00:00 AP.M
+- Mobile support
+    - Fixed spacing issue in the navbar for mobile devices
+
 ### [04/01/2025] @ 00:00 AP.M
 - Optimized File Location
     - Merged 'icon' and 'icons' folder into 'icons'

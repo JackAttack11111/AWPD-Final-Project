@@ -196,6 +196,7 @@ button.mobile-nav-popout {
     align-items: center;
     height: 4rem;
     width: 4rem;
+    
 }
 
 .spacer {
@@ -416,5 +417,25 @@ button.payment-contact:hover {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: top;
+    }
+
+    .headnavbar {
+        padding: 1rem 0px;
+    }
+
+    .mobile-fast-fix {
+        margin: 0px;
+    }
+
+    .mobile-popout {
+        text-align: right;
+    }
+
+    .spacer {
+        height: 0px
+    }
+
+    .index-text {
+        height: 288px;
     }
 }
