@@ -70,7 +70,7 @@
     <!--Announcement Space Breaker-->
     <div class="container-fluid">
         <div class="row d-flex align-items-center spacer">
-            <div class="col"><h3>OUR ST. PATRICKS DAY SEASON IS APPROACHING. <br>
+            <div class="col"><h3 class="mobile-announce">OUR ST. PATRICKS DAY SEASON IS APPROACHING. <br>
             NOW IS A GREAT TIME TO GET INVOLVED!!</h3></div>
         </div>
     </div>
@@ -82,26 +82,30 @@
     </div>
     <!--Multimedia Links-->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col no-padding year-in-review"><a href="yearinreview.html" class="mainMediaLink"><h3>Years In<br>Review</h3></a></div>
-            <div class="col no-padding practiceimg"><a href="practice.html" class="mainMediaLink"><h3>Join Us<br>For Practice</h3></a></div>
-            <div class="col no-padding ddayimg"><a href="dday.html" class="mainMediaLink"><h3>D-Day<br>Events</h3></a></div>
+        <div class="row flex-lg-row flex-column">
+            <div class="col p-0 d-md-block d-lg-none year-in-review"><a href="yearinreview.html" class="mainMediaLink"><h3 class="multiMobile">Years In Review</h3></a></div>
+            <div class="col p-0 d-none d-lg-block year-in-review"><a href="yearinreview.html" class="mainMediaLink"><h3>Years In<br>Review</h3></a></div>
+            <div class="col p-0 d-md-block d-lg-none practiceimg"><a href="practice.html" class="mainMediaLink"><h3 class="multiMobile">Join Us For Practice</h3></a></div>
+            <div class="col p-0 d-none d-lg-block practiceimg"><a href="practice.html" class="mainMediaLink"><h3>Join Us<br>For Practice</h3></a></div>
+            <div class="col p-0 d-md-block d-lg-none ddayimg"><a href="dday.html" class="mainMediaLink"><h3 class="multiMobile">D-Day Events</h3></a></div>
+            <div class="col p-0 d-none d-lg-block ddayimg"><a href="dday.html" class="mainMediaLink"><h3>D-Day<br>Events</h3></a></div>
         </div>
     </div>
     <!--Paypal Link-->
     <div class="container-fluid paypal-block">
-        <div class="row py-5 paypal">
-            <div class="col-3"><img class="img-fluid" src="img/promo/paypal.png"></div>
+        <div class="row py-5 paypal flex-lg-row flex-column">
+            <div class="col-5 col-lg-3 mb-3"><img class="img-fluid" src="img/promo/paypal.png"></div>
             <div class="col-1"></div>
-            <div class="col-6 justify-content-center button-center">
-                <h1 class="paypal-text">Scan our QR Code to donate <br> or</h1>
-                <button class="paypalButton">Donate Via Paypal Giving Fund</button>
+            <div class="col-lg-6 col justify-content-center button-center">
+                <h1 class="paypal-text d-none d-lg-block">Scan our QR Code to donate <br> or</h1>
+                <h1 class="paypal-text d-lg-none">Scan our QR Code to donate or</h1>
+                <button class="paypalButton"><span class="mobile-paypal-button">Donate Via Paypal Giving Fund</span></button>
             </div>
         </div>
     </div>
     <!--Footer-->
     <div class="container-fluid footer py-5">
-        <div class="row align-items-center justify-content-around">
+        <div class="row d-none d-lg-flex align-items-center justify-content-around">
             <div class="col-3 d-flex flex-column">
                 <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
                 <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
@@ -114,6 +118,23 @@
             </div>
             <div class="col-3">
                 <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row d-lg-none align-items-center justify-content-around">
+            <div class="col-9 d-flex flex-column">
+                <div class="col mb-2 subtext"><h1 class="text-start">Contact Us</h1></div>
+                <div class="col mb-1 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                <div class="col mb-1 subtext"><h4>347.470.3351</h4></div>
+                <div class="col mb-1 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+            </div>
+            <div class="col-3 d-flex flex-column align-content-around">
+                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col">
+                    <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+                </div>
             </div>
         </div>
     </div>

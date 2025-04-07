@@ -99,10 +99,6 @@ a:hover {
     border: solid 5px rgb(242, 174, 46);
 }
 
-.no-padding {
-    padding: 0px !important;
-}
-
 h1 {
     font-family: "Markazi Text", sans-serif;
     font-size: 72px;
@@ -432,10 +428,47 @@ button.payment-contact:hover {
     }
 
     .spacer {
-        height: 0px
+        height: auto;
+        padding: 1rem;
+    }
+
+    .mobile-announce {
+        font-size: 1rem !important;
+        line-height: normal !important;
     }
 
     .index-text {
         height: 288px;
+    }
+
+    .multiMobile {
+        font-size: 1rem !important;
+        line-height: normal !important;
+        padding: 2.5rem !important;
+        font-size: 2rem !important;
+        margin: 0px !important;
+    }
+
+    .paypal-text {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .paypalButton {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .mobile-paypal-button {
+        font-size: 2rem;
+        line-height: normal;
+    }
+
+    .text-start {
+        font-size: 3rem !important;
+    }
+
+    .subtext > h4 {
+        font-size: 1.5rem !important;
     }
 }

@@ -9,6 +9,11 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/07/2025] @ 11:50 A.M
+- Mobile Support
+    - Added full mobile support for index.html
+        - Optimized code and removed unnnecessary classes/ids
+
 ### [04/04/2025] @ 00:00 AP.M
 - Mobile support
     - Fixed spacing issue in the navbar for mobile devices
