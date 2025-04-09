@@ -9,21 +9,26 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/09/2025] @ 09:28 A.M
+- Added Images
+    - Added multimedia images for mobile support
+        - Added mobile images of Year in Review, Practice, and D-Day Events
+
 ### [04/07/2025] @ 11:50 A.M
 - Mobile Support
     - Added full mobile support for index.html
         - Optimized code and removed unnnecessary classes/ids
 
-### [04/04/2025] @ 00:00 AP.M
+### [04/04/2025] @ 09:28 AP.M
 - Mobile support
     - Fixed spacing issue in the navbar for mobile devices
 
-### [04/01/2025] @ 00:00 AP.M
+### [04/01/2025] @ 10:43 A.M
 - Optimized File Location
     - Merged 'icon' and 'icons' folder into 'icons'
 - Added more optimization for mobile support in index.html
 
-### [03/31/2025] @ 00:00 AP.M
+### [03/31/2025] @ 09:30 A.M
 - Begun Mobile Support
     - Working on supporting index.html
 - Added actual footer to pages

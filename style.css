@@ -471,4 +471,16 @@ button.payment-contact:hover {
     .subtext > h4 {
         font-size: 1.5rem !important;
     }
+
+    .year-in-review {
+        background-image: url(img/media/yir-mobile.png);
+    }
+
+    .practiceimg {
+        background-image: url(img/media/practice-mobile.png);
+    }
+
+    .ddayimg {
+        background-image: url(img/media/dday-mobile.png);
+    }
 }
