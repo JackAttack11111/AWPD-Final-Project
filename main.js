@@ -3,8 +3,7 @@
 //JAVASCRIPT
 window.addEventListener('load', function() {
     document.button.style.transition = 0
-})
-
+});
 
 //JQUERY JS
 $(document).ready(() => {

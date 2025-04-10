@@ -406,12 +406,21 @@ button.payment-contact:hover {
     line-height: normal !important;
 }
 
+#mobileMenu {
+    margin-left: 0px;
+}
+
+.mobile-popout {
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
 @media (max-width: 991.98px) {
     .mobile-indexbg {
         background-image: url(img/backgrounds/mobile/mIndexBg.png);
         background-position: left;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: top;
     }
 
@@ -423,7 +432,7 @@ button.payment-contact:hover {
         margin: 0px;
     }
 
-    .mobile-popout {
+    .mobile-menu-button {
         text-align: right;
     }
 

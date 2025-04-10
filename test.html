@@ -15,6 +15,7 @@
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
     <body>
+
         <div class="container-fluid headnavbar">
         <div class="row align-items-center mobile-fast-fix">
                 <div class="col-lg-1 col-3"><a href="/index.html">
@@ -48,45 +49,24 @@
                     <h2>More</h2>
                 </div>
                 <div class="col d-lg-none"></div>
-                <div class="col-3 d-lg-none mobile-popout"><button class="mobile-nav-popout float-end" onclick="openNav()">
+                <div class="col-3 d-lg-none mobile-menu-button"><button class="mobile-nav-popout float-end"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                     <img src="img/icons/mobile-nav.png" alt="More" class="img-fluid"></button></div>
         </div>
         </div>
-        <!--Footer-->
-        <div class="container-fluid footer py-5">
-            <div class="row d-none d-lg-flex align-items-center justify-content-around">
-                <div class="col-3 d-flex flex-column">
-                    <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
-                    <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
-                    <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
-                    <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
-                </div>
-                <div class="col-3 d-flex flex-column align-content-around">
-                    <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
-                    <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
-                </div>
-                <div class="col-3">
-                    <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
-                </div>
+        <div class="offcanvas offcanvas-end" id="demo">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Heading</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
             </div>
-            <div class="row d-lg-none align-items-center justify-content-around">
-                <div class="col-9 d-flex flex-column">
-                    <div class="col mb-2 subtext"><h1 class="text-start">Contact Us</h1></div>
-                    <div class="col mb-1 subtext"><h4>awpd@atlanticwatch.org</h4></div>
-                    <div class="col mb-1 subtext"><h4>347.470.3351</h4></div>
-                    <div class="col mb-1 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
-                </div>
-                <div class="col-3 d-flex flex-column align-content-around">
-                    <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
-                    <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
-                </div>
-                <div class="row mt-4 justify-content-center">
-                    <div class="col">
-                        <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
-                    </div>
-                </div>
+            <div class="offcanvas-body">
+              <p>Some text lorem ipsum.</p>
+              <p>Some text lorem ipsum.</p>
+              <p>Some text lorem ipsum.</p>
+              <button class="btn btn-secondary" type="button">A Button</button>
             </div>
-        </div>
+          </div>
+        
     </body>
     <script src="main.js"></script>
 </html>

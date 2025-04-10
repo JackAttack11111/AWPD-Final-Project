@@ -9,6 +9,11 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/10/2025] @ 10:40 A.M
+- Finalized Mobile Support
+    - Index.html is now fully supported for mobile
+    - Attempting to make popout window for mobile users in navbar
+
 ### [04/09/2025] @ 09:28 A.M
 - Added Images
     - Added multimedia images for mobile support
