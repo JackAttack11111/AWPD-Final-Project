@@ -95,7 +95,6 @@ a:hover {
 .paypalButtonHover {
     background-color: rgb(0, 0, 0);
     color: rgb(242, 174, 46);
-    padding: 0px 25px;
     border: solid 5px rgb(242, 174, 46);
 }
 
@@ -466,6 +465,15 @@ button.payment-contact:hover {
     .paypalButton {
         font-size: 2rem;
         line-height: normal;
+    }
+
+    .paypalButtonHover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(242, 174, 46);
+        border: solid 5px rgb(242, 174, 46);
+        font-size: 2rem;
+        line-height: normal;
+        height: auto;
     }
 
     .mobile-paypal-button {
