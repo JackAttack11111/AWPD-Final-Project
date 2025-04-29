@@ -14,7 +14,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
-    <body>
+    <body style="background-image: url(img/contactwireframe.png)">
     <!--Nav Bar-->
         <div class="container-fluid headnavbar">
         <div class="row align-items-center mobile-fast-fix">
@@ -53,64 +53,49 @@
                     <img src="img/icons/mobile-nav.png" alt="More" class="img-fluid"></button></div>
         </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-1"></div>
-                <div class="col-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text">First and last name</span>
-                        <input type="text" aria-label="First name" class="form-control">
-                        <input type="text" aria-label="Last name" class="form-control">
-                      </div>
-                      
-                      <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                        <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                      </div>
-                      
-                      <div class="input-group">
-                        <span class="input-group-text">With textarea</span>
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                      </div>
+        <div class="container-fluid mx-4 contact-forum">
+            <form>
+            <div class="row flex-column align-items-start justify-content-center contact-forum-style">
+                <div class="col mb-5"><h1>Contact us</h1></div>
+                <div class="col"><h3>Topic</h3></div>
+                <div class="col mb-3">    
+                    <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option value="1">Hiring the Band/Piper</option>
+                    <option value="2">Attending a Practice</option>
+                    <option value="3">Joining the Band</option>
+                    <option value="4">Accessibility</option>
+                    <option value="5">Merchandise</option>
+                    <option value="6">Something Else</option>
+                  </select>
                 </div>
+                <div class="col form-label" for="validationDefault01 validationDefault02"><h3>Phone</h3></div>
+                <div class="col mb-3">
+                    <input type="text" class="form-control" placeholder="Phone #" aria-label="Phone Number" id="validationDefault01" required>
+                </div>
+                <div class="col form-label" for="validationDefault01 validationDefault02"><h3>Name</h3></div>
+                <div class="row mb-3"> 
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" id="validationDefault01" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" id="validationDefault02" required>
+                    </div>
+                </div>
+                    <div class="col form-label" for="validationDefault03 validationDefault04"><h3>Email</h3></div>
+                    <div class="row mb-3"> 
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" id="validationDefault03" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Confirm Email" aria-label="Confirm Email" id="validationDefault04" required>
+                        </div>
+                    </div>
+                    <button type="submit">submit</button>
             </div>
+        </form>
         </div>
     <!--Footer-->
-    <div class="container-fluid footer py-5">
-        <div class="row d-none d-lg-flex align-items-center justify-content-around">
-            <div class="col-3 d-flex flex-column">
-                <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
-                <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
-                <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
-                <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
-            </div>
-            <div class="col-3 d-flex flex-column align-content-around">
-                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
-                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
-            </div>
-            <div class="col-3">
-                <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="row d-lg-none align-items-center justify-content-around">
-            <div class="col-9 d-flex flex-column">
-                <div class="col mb-2 subtext"><h1 class="text-start">Contact Us</h1></div>
-                <div class="col mb-1 subtext"><h4>awpd@atlanticwatch.org</h4></div>
-                <div class="col mb-1 subtext"><h4>347.470.3351</h4></div>
-                <div class="col mb-1 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
-            </div>
-            <div class="col-3 d-flex flex-column align-content-around">
-                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
-                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
-            </div>
-            <div class="row mt-4 justify-content-center">
-                <div class="col">
-                    <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
     </body>
     <script src="main.js"></script>
 </html>

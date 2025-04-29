@@ -9,6 +9,11 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/29/2025] @ 10:40 A.M
+- Begun work on contact page (Does not send emails yet)
+    - Added text boxes for name, email and dropdowns for topic
+        - Made pop up ask for input if nothing is written when submitted.
+
 ### [04/10/2025] @ 10:40 A.M
 - Finalized Mobile Support
     - Index.html is now fully supported for mobile

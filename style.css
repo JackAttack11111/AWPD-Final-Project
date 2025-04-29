@@ -414,6 +414,31 @@ button.payment-contact:hover {
     text-align: center;
 }
 
+.contact-forum {
+    background-color: #202020;
+    border-radius: 25px;
+    width: 78.313rem;
+    margin-top: 5rem;
+    padding: 1.625rem;
+    gap: 10;
+}
+
+.contact-forum-style > .col > h1 {
+    color:rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 13px;
+}
+
+.contact-forum-style > .col > h3 {
+    color:rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
 @media (max-width: 991.98px) {
     .mobile-indexbg {
         background-image: url(img/backgrounds/mobile/mIndexBg.png);
