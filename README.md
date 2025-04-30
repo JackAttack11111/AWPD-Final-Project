@@ -9,6 +9,15 @@
     - Sub-change 1
         - Change Desc.
 
+### [04/30/2025] @ 00:00 AP.M
+- Finalized Contact page
+    - Added message boxes
+    - Styled the Submit Button
+    - Added redirects
+        - Other pages will now redirect to contact from contact buttons
+- Made practice.html mobile supported
+    - Can now be viewed on mobile with comfort
+
 ### [04/29/2025] @ 10:40 A.M
 - Begun work on contact page (Does not send emails yet)
     - Added text boxes for name, email and dropdowns for topic

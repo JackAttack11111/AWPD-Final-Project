@@ -58,7 +58,7 @@
             <div class="row flex-column align-items-start justify-content-center contact-forum-style">
                 <div class="col mb-5"><h1>Contact us</h1></div>
                 <div class="col"><h3>Topic</h3></div>
-                <div class="col mb-3">    
+                <div class="col mb-5">    
                     <select class="form-select" id="validationDefault04" required>
                     <option selected disabled value="">Choose...</option>
                     <option value="1">Hiring the Band/Piper</option>
@@ -70,11 +70,11 @@
                   </select>
                 </div>
                 <div class="col form-label" for="validationDefault01 validationDefault02"><h3>Phone</h3></div>
-                <div class="col mb-3">
+                <div class="col mb-5">
                     <input type="text" class="form-control" placeholder="Phone #" aria-label="Phone Number" id="validationDefault01" required>
                 </div>
                 <div class="col form-label" for="validationDefault01 validationDefault02"><h3>Name</h3></div>
-                <div class="row mb-3"> 
+                <div class="row mb-5"> 
                     <div class="col">
                         <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" id="validationDefault01" required>
                     </div>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
                     <div class="col form-label" for="validationDefault03 validationDefault04"><h3>Email</h3></div>
-                    <div class="row mb-3"> 
+                    <div class="row mb-5"> 
                         <div class="col">
                             <input type="text" class="form-control" placeholder="Email" aria-label="Email" id="validationDefault03" required>
                         </div>
@@ -91,11 +91,57 @@
                             <input type="text" class="form-control" placeholder="Confirm Email" aria-label="Confirm Email" id="validationDefault04" required>
                         </div>
                     </div>
-                    <button type="submit">submit</button>
+                    <div class="col form-label" for="validationDefault05"><h3>Comment or Question</h3></div>
+                    <div class="row mb-5"> 
+                        <div class="col">
+                            <textarea class="form-control pb-5" aria-label="With textarea" id="validationDefault05" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col form-label"><h3>How did you find us?</h3></div>
+                    <div class="row mb-5"> 
+                        <div class="col">
+                            <textarea class="form-control pb-5" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                    <button class="contact-submit" type="submit">Submit</button>
             </div>
         </form>
         </div>
     <!--Footer-->
+    <div class="container-fluid footer py-5">
+        <div class="row d-none d-lg-flex align-items-center justify-content-around">
+            <div class="col-3 d-flex flex-column">
+                <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
+                <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
+                <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+            </div>
+            <div class="col-3 d-flex flex-column align-content-around">
+                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+            </div>
+            <div class="col-3">
+                <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row d-lg-none align-items-center justify-content-around">
+            <div class="col-9 d-flex flex-column">
+                <div class="col mb-2 subtext"><h1 class="text-start">Contact Us</h1></div>
+                <div class="col mb-1 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                <div class="col mb-1 subtext"><h4>347.470.3351</h4></div>
+                <div class="col mb-1 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+            </div>
+            <div class="col-3 d-flex flex-column align-content-around">
+                <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col">
+                    <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
     <script src="main.js"></script>
 </html>

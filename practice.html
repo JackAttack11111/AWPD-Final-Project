@@ -16,41 +16,44 @@
     </head>
     <body>
         <div class="container-fluid headnavbar">
-        <div class="row">
-                <div class="col-1"><a href="/index.html">
-                    <img src="/img/icons/awpdlogo.png" alt="AWPD Logo">
-                </a></div>
-                <div class="col-3 navTitle">
-                    <h1>Atlantic Watch Pipes &<br>Drums</h1>
-                </div>
-                <div class="col"></div>
-                <div class="col-1 extendedNav">
-                    <a href="/about.html">
-                        <h2>About</h2>
-                    </a>
-                </div>
-                <div class="col-1 extendedNav">
-                    <a href="/contact.html">
-                        <h2>Contact</h2>
-                    </a>
-                </div>
-                <div class="col-1 extendedNav">
-                    <a href="/practice.html">
-                        <h2>Practice<br>Lessons</h2>
-                    </a>
-                </div>
-                <div class="col-1 extendedNav">
-                    <a href="/dday.html">
-                        <h2>D-Day<br>Events</h2>
-                    </a>
-                </div>
-                <div class="col-1 extendedNav">
-                    <h2>More</h2>
-                </div>
-        </div>
-        </div>
+            <div class="row align-items-center mobile-fast-fix">
+                    <div class="col-lg-1 col-3"><a href="/index.html">
+                        <img class="img-fluid" src="/img/icons/awpdlogo.png" alt="AWPD Logo">
+                    </a></div>
+                    <div class="col-3 d-none d-lg-flex navTitle">
+                        <h1>Atlantic Watch Pipes &<br>Drums</h1>
+                    </div>
+                    <div class="col d-none d-lg-flex"></div>
+                    <div class="col-1 d-none d-lg-flex extendedNav">
+                        <a href="/about.html">
+                            <h2>About</h2>
+                        </a>
+                    </div>
+                    <div class="col-1 d-none d-lg-flex extendedNav">
+                        <a href="/contact.html">
+                            <h2>Contact</h2>
+                        </a>
+                    </div>
+                    <div class="col-1 d-none d-lg-flex extendedNav">
+                        <a href="/practice.html">
+                            <h2>Practice<br>Lessons</h2>
+                        </a>
+                    </div>
+                    <div class="col-1 d-none d-lg-flex extendedNav">
+                        <a href="/dday.html">
+                            <h2>D-Day<br>Events</h2>
+                        </a>
+                    </div>
+                    <div class="col-1 d-none d-lg-flex extendedNav">
+                        <h2>More</h2>
+                    </div>
+                    <div class="col d-lg-none"></div>
+                    <div class="col-3 d-lg-none mobile-popout"><button class="mobile-nav-popout float-end" onclick="openNav()">
+                        <img src="img/icons/mobile-nav.png" alt="More" class="img-fluid"></button></div>
+            </div>
+            </div>
         <div class="container-fluid">
-            <div class="row practice-banner">
+            <div class="row practice-banner mb-5 mb-lg-0">
                 <div class="col banner-text"><h1>Join Us for Practice!</h1></div>
             </div>
         </div>
@@ -74,8 +77,12 @@
         </div>
         <div class="container-fluid mt-5">
             <div class="row text-center">
-                <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.561966931348!2d-74.06701110000002!3d40.3520621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c23048415fd913%3A0xd8395bfd5de79e9a!2s40%20W%20Front%20St%2C%20Red%20Bank%2C%20NJ%2007701!5e0!3m2!1sen!2sus!4v1742992264596!5m2!1sen!2sus" 
-                    width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="col d-none d-lg-block"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.561966931348!2d-74.06701110000002!3d40.3520621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c23048415fd913%3A0xd8395bfd5de79e9a!2s40%20W%20Front%20St%2C%20Red%20Bank%2C%20NJ%2007701!5e0!3m2!1sen!2sus!4v1742992264596!5m2!1sen!2sus" 
+                    width="1000" height="450" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col d-lg-none"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.561966931348!2d-74.06701110000002!3d40.3520621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c23048415fd913%3A0xd8395bfd5de79e9a!2s40%20W%20Front%20St%2C%20Red%20Bank%2C%20NJ%2007701!5e0!3m2!1sen!2sus!4v1742992264596!5m2!1sen!2sus" 
+                    width="auto" height="450" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
         <div class="container-fluid mt-5 text-center">
@@ -83,14 +90,14 @@
                 <div class="col subtext">
                     <h3>The lodge is accessible through the front door which is at street level with 
                         no
-                        <br>barriers/steps and adjacent to an ADA crosswalk with on street parking as 
+                        <br class="d-none d-lg-block">barriers/steps and adjacent to an ADA crosswalk with on street parking as 
                         well as
-                        <br>
+                        <br class="d-none d-lg-block">
                         the English Plaza Parking Lot. Inside the Elks, there are two (2) ADA 
                         restrooms and
-                        <br>
+                        <br class="d-none d-lg-block">
                         clearances for travel which are approximately 60″ or greater. 
-                        <br>ADA concerns or questions? <a href="contact.html">Contact us</a></h3>
+                        <br class="d-none d-lg-block">ADA concerns or questions? <a href="contact.html">Contact us</a></h3>
                 </div>
             </div>
         </div>
@@ -103,7 +110,7 @@
             <div class="row text-center mt-4">
                 <div class="col subtext">
                     <h1>Piping - Derek Midgley</h1>
-                    <img src="img/media/derek.jpg" alt="Derek Midgley" class="img-resize-practice">
+                    <img src="img/media/derek.jpg" alt="Derek Midgley" class="img-resize-practice img-fluid">
                     <p class="practice-about">From the Balmoral School of Piping “Derek Midgley is a 
                         fulltime piping instructor based in New Jersey, where he works 
                         to improve the piping community along the east coast of the US. 
@@ -119,7 +126,7 @@
                         Glengarry Highland Games, Maxville (Canada); Piobaireachd at The Metro 
                         Cup (USA).” </p>
                 </div>
-                <div class="col subtext">
+                <div class="col subtext my-5 my-lg-0">
                     <h1>Drumming - Gordon Bell</h1>
                     <img src="img/media/gordon-1.jpg" alt="Gordon Bell" class="img-resize-practice">
                     <p class="practice-about">From the Balmoral Classic Celebration literature: “USA – GORDON BELL began 
@@ -137,23 +144,40 @@
             </div>
         </div>
                 <!--Footer-->
-        <div class="container-fluid footer py-5">
-            <div class="row align-items-center justify-content-around">
-                <div class="col-3 d-flex flex-column">
-                    <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
-                    <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
-                    <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
-                    <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+                <div class="container-fluid footer py-5">
+                    <div class="row d-none d-lg-flex align-items-center justify-content-around">
+                        <div class="col-3 d-flex flex-column">
+                            <div class="col mb-4 subtext"><h1 class="text-start">Contact Us</h1></div>
+                            <div class="col mb-3 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                            <div class="col mb-3 subtext"><h4>347.470.3351</h4></div>
+                            <div class="col mb-3 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+                        </div>
+                        <div class="col-3 d-flex flex-column align-content-around">
+                            <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                            <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+                        </div>
+                        <div class="col-3">
+                            <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row d-lg-none align-items-center justify-content-around">
+                        <div class="col-9 d-flex flex-column">
+                            <div class="col mb-2 subtext"><h1 class="text-start">Contact Us</h1></div>
+                            <div class="col mb-1 subtext"><h4>awpd@atlanticwatch.org</h4></div>
+                            <div class="col mb-1 subtext"><h4>347.470.3351</h4></div>
+                            <div class="col mb-1 subtext"><h4>PO BOX: 758 Red Bank, NJ, 07701</h4></div>
+                        </div>
+                        <div class="col-3 d-flex flex-column align-content-around">
+                            <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
+                            <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
+                        </div>
+                        <div class="row mt-4 justify-content-center">
+                            <div class="col">
+                                <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3 d-flex flex-column align-content-around">
-                    <div class="col mb-4 text-center"><img class="img-fluid" src="img/sponsors/triumph-no-background.png" alt="Triumph Brewing Co."></div>
-                    <div class="col text-center"><img class="img-fluid" src="img/sponsors/Guire-Logo-WebL.png" alt="Guire"></div>
-                </div>
-                <div class="col-3">
-                    <img src="img/sponsors/Regrantee-funding-statement-black.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
     </body>
     <script src="main.js"></script>
 </html>
