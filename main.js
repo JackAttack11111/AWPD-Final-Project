@@ -36,6 +36,11 @@ $(document).ready(() => {
       }).on('mouseleave', (event) => {
         $(event.currentTarget).removeClass('product-hover')
       });
+
+    //More Button (Desktop)
+    $('.dropdown-toggle').on('click', (event) => {
+      $('.dropdown-menu').toggleClass('show');
+    });
 });
 
 //VUE JS

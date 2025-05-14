@@ -447,6 +447,17 @@ button.payment-contact:hover {
     border: solid 5px rgb(0, 172, 90)
 }
 
+.dropdown-menu {
+    margin-top: 2.225rem;
+}
+
+.dropdown-item {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 1.25rem;
+    line-height: normal;
+    color: rgb(242, 242, 242);
+}
+
 
 @media (max-width: 991.98px) {
     .mobile-indexbg {
@@ -587,5 +598,55 @@ button.payment-contact:hover {
 
     .banner-text > h1 {
         font-size: 2.125rem;
+    }
+
+    .product-text > h1 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: normal;
+}
+
+    .product-text > h2 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+    .product-text > h3 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+    .product-text > h4 {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+}
+
+    .product-text > p {
+    color: rgb(242, 242, 242);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    line-height: normal;
+    }
+
+    .prod-desc {
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px 15px 0px 0px;
+    padding: 40px;
+    }
+
+    .prod-desc-mobile {
+    background-color: rgb(32, 32, 32);
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
     }
 }

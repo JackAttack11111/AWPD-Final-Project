@@ -3,24 +3,24 @@
         "product": "T-Shirt",
         "productImage": "img/product/tshrit.png",
         "price": "$20",
-        "link": "store/awpdtshirt.html"
+        "link": "awpdtshirt.html"
     },
     {
         "product": "Pint Glass",
         "productImage": "img/product/glass.png",
         "price": "$10",
-        "link": "store/awpdpintglass.html"
+        "link": "awpdpintglass.html"
     },
     {
         "product": "Legacy Mug",
         "productImage": "img/product/mug.png",
         "price": "$5",
-        "link": "store/awpdlegacymug.html"
+        "link": "awpdlegacymug.html"
     },
     {
         "product": "Drumhead",
         "productImage": "img/product/drumhead.png",
         "price": "$500",
-        "link": "store/awpdbdrumhead.html"
+        "link": "awpdbdrumhead.html"
     }
 ]
