@@ -9,10 +9,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Markazi+Text">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    </head>
     </head>
     <body>
         <!--Nav Bar-->
@@ -62,20 +61,27 @@
         </div>
         </div>
         <div class="container-fluid">
-            <div class="row mt-5">
+            <div class="col d-lg-none prod-desc-mobile product-text"><h1>The Atlantic Watch Pipes &<br>Drums Bass Drumhead</h1></div>
+            <div class="row flex-lg-row mt-lg-5">
                 <!--Product Image (Bass Drumhead)-->
-                <div class="col px-5" style="text-align: center;"><img src="/img/product/drumheaddisplay.png">
+                <div class="col px-5 my-3 my-lg-0" style="text-align: center;"><img class="img-fluid" src="/img/product/drumheaddisplay.png">
                 <br>
                 <!--Image Subtext-->
-                <h1 class="bassdrum mt-4">The band’s emblem is not just
+                <h1 class="bassdrum mt-4 d-none d-lg-block">The band’s emblem is not just
                     <br>
                     an image; it’s the heart of its
                     <br>
-                    musical identity.</h1>
+                    musical identity.
+                </h1>
+                <h1 class="bassdrum mt-4 d-lg-none">The band’s emblem is not just
+                    an image; it’s the heart of its
+                    musical identity.
+                </h1>
             </div>
-                <div class="col-7 product-text prod-desc">
+                <div class="col-lg-7 col product-text prod-desc bd-mobile">
                     <!--Product Name-->
-                    <h1>The Atlantic Watch Pipes &<br>Drums Bass Drumhead</h1>
+                    <h1 class="d-none d-lg-block">The Atlantic Watch Pipes &<br>Drums Bass Drumhead</h1>
+                    <h3 class="d-lg-none">$500 USD</h3>
                     <div class="mt-5"></div>
                     <!--Product Primary Description-->
                     <h4><i>Introducing a limited-edition masterpiece that
@@ -107,13 +113,18 @@
                     <div class="mt-4"></div>
                     <div class="flex product-text">
                         <!--Product Price-->
-                        <h3>$500 USD</h3>
+                        <h3 class="d-none d-lg-block">$500 USD</h3>
                         <!--Product Details-->
-                        <h2 style="text-align: end;"><b>Product Details:</b>
+                        <h2 class="d-none d-lg-block" style="text-align: end;"><b>Product Details:</b>
                             <br> 
                             Size: 32 &frac12;" X 32 &frac12;" X 2 &frac14;"
                             <br>
                             Weight: 9 lbs
+                        </h2>
+                        <h2 class="d-lg-none" style="text-align: start;">
+                            <b>Product Details:</b>
+                            <li>Size: 32 &frac12;" X 32 &frac12;" X 2 &frac14;"</li>
+                            <li>Weight: 9 lbs</li>
                         </h2>
                     </div>
                     <div class="mt-4"></div>
@@ -123,7 +134,7 @@
                     </i></b>
                         </i>
                     </p>
-                    <div class="mt-5"></div>\
+                    <div class="mt-5"></div>
                     <div class="row justify-content-center">
                         <button onclick="window.location.href='/contact.html' " class="payment-contact">Contact Us For Payment</button>
                     </div>

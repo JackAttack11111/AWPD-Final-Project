@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Markazi+Text">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
@@ -62,13 +62,13 @@
         </div>
         <div class="container-fluid">
             <div class="col d-lg-none prod-desc-mobile product-text"><h1>The Atlantic Watch Pipes &<br>Drums T-Shirt</h1></div>
-            <div class="row flex-lg-row mt-5">
+            <div class="row flex-lg-row mt-lg-5">
                 <!--Product Image (T-Shirt)-->
-                <div class="col px-5"><img class="img-fluid" src="img/product/tshirtdisplay.png"></div>
+                <div class="col px-5 my-3 my-lg-0"><img class="img-fluid" src="img/product/tshirtdisplay.png"></div>
                 <div class="col-lg-7 col product-text prod-desc">
                     <!--Product Name-->
                     <h1 class="d-none d-lg-block">The Atlantic Watch Pipes &<br>Drums T-Shirt</h1>
-                    <div class="d-block product-text">
+                    <div class="d-block d-lg-none product-text">
                         <h3>$20 USD</h3>
                     </div>
                     <div class="mt-5"></div>
@@ -83,11 +83,17 @@
                         <!--Product Price-->
                         <h3 class="d-none d-lg-block">$20 USD</h3>
                         <!--Product Details-->
-                        <h2 style="text-align: end;"><b>Product Details:</b> Color: Black
+                        <h2 class="d-none d-lg-block" style="text-align: end;"><b>Product Details:</b> Color: Black
                             <br>
                             100% Cotton
                             <br>
                             Size: L, XL
+                        </h2>
+                        <h2 class="d-block d-lg-none" style="text-align: start;">
+                            <b>Product Details:</b>
+                            <li>Color: Black</li>
+                            <li>100% Cotton</li>
+                            <li>Size: L, XL</li>
                         </h2>
                     </div>
                     <div class="mt-4"></div>
@@ -97,7 +103,7 @@
                         products, contact us and we will make sure we can get it to you
                         </i>
                     </p>
-                    <div class="mt-5"></div>\
+                    <div class="mt-5"></div>
                     <div class="row justify-content-center">
                         <button class="payment-contact">Contact Us For Payment</button>
                     </div>
