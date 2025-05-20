@@ -9,17 +9,19 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Markazi+Text">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    </head>
     </head>
     <body>
         <!--Nav Bar-->
         <div class="container-fluid headnavbar">
         <div class="row align-items-center mobile-fast-fix">
-                <div class="col-lg-1 col-3"><a href="index.html">
+                <div class="col-lg-1 col-3 d-none d-lg-block"><a href="index.html">
                     <img class="img-fluid" src="img/icons/awpdlogo.png" alt="AWPD Logo">
+                </a></div>
+                <div class="col-lg-1 col-3 d-lg-none"><a href="index.html">
+                    <img class="img-fluid" src="img/icons/awpdlogo-mobile.png" alt="AWPD Logo">
                 </a></div>
                 <div class="col-3 d-none d-lg-flex navTitle">
                     <h1>Atlantic Watch Pipes &<br>Drums</h1>
@@ -62,12 +64,16 @@
         </div>
         </div>
         <div class="container-fluid">
-            <div class="row mt-5">
+            <div class="col d-lg-none prod-desc-mobile product-text"><h1>The Atlantic Watch Pipes &<br>Drums Legacy Mug</h1></div>
+            <div class="row flex-lg-row mt-lg-5">
                 <!--Product Image (Legacy Mug)-->
-                <div class="col px-5"><img src="/img/product/tshirtdisplay.png"></div>
-                <div class="col-7 product-text prod-desc">
+                <div class="col px-5 my-3 my-lg-0"><img class="img-fluid" src="/img/product/mugdisplay.png"></div>
+                <div class="col-lg-7 col product-text prod-desc">
                     <!--Product name-->
-                    <h1>The Atlantic Watch Pipes &<br>Drums Legacy Mug</h1>
+                    <h1 class="d-none d-lg-block">The Atlantic Watch Pipes &<br>Drums Legacy Mug</h1>
+                    <div class="d-block d-lg-none product-text">
+                        <h3>$5 USD</h3>
+                    </div>
                     <div class="mt-5"></div>
                     <!--Product Description-->
                     <p>
@@ -75,10 +81,10 @@
                         <br>
                         the Atlantic Watch Pipes & Drums have come
                     </p>
-                    <div class="mt-5"></div>
+                    <div class="mt-4"></div>
                     <div class="flex product-text">
                         <!--Product Price-->
-                        <h3>$5 USD</h3>
+                        <h3 class="d-none d-lg-block">$5 USD</h3>
                     </div>
                     <div class="mt-4"></div>
                     <!--How to arrange payments (Don't Touch)-->

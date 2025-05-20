@@ -5,11 +5,31 @@
 # Changelog
 ---
 ### [mm/dd/yyyy] @ 00:00 AP.M
-- Change 1
-    - Sub-change 1
-        - Change Desc.
+- Fixed style.css from being called to root to fix github pages on product pages
+- Added request from client
+    - Removed text from logo and added new logo to mobile navbar with organization name
+- Finalized all product pages for desktop and mobile use
 
-### [04/30/2025] @ 00:00 AP.M
+### [05/19/2025] @ 00:00 AP.M
+- Finalized mobile support for bass drum product page
+
+### [05/14/2025] @ 11:55 A.M
+- Updated Bootstrap 5 version
+    - Did not fix dropdowns
+        - Fixed dropdowns using Jquery in main.js
+- Added style.css to be called to root
+- Added mobile support to some product pages
+    - awpdtshirt.html
+    - awpdbdrumhead.html
+
+### [05/13/2025] @ 09:28 A.M
+- Added more details to navbar for mobile support
+    - Added text to the center between the logo and menu button
+
+### [05/05/2025] @ 00:00 A.M
+- Fixed elements not being able to link properly in github pages
+
+### [04/30/2025] @ 11:54 A.M
 - Finalized Contact page
     - Added message boxes
     - Styled the Submit Button
