@@ -26,7 +26,7 @@
 - Added more details to navbar for mobile support
     - Added text to the center between the logo and menu button
 
-### [05/05/2025] @ 00:00 A.M
+### [05/05/2025] @ 11:46 A.M
 - Fixed elements not being able to link properly in github pages
 
 ### [04/30/2025] @ 11:54 A.M
