@@ -4,7 +4,7 @@
 
 # Changelog
 ---
-### [mm/dd/yyyy] @ 00:00 AP.M
+### [05/20/2025] @ 00:00 AP.M
 - Fixed style.css from being called to root to fix github pages on product pages
 - Added request from client
     - Removed text from logo and added new logo to mobile navbar with organization name
