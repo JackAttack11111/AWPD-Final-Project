@@ -4,6 +4,15 @@
 
 # Changelog
 ---
+### [mm/dd/yyyy] @ 00:00 AP.M
+- Change 1
+    - Sub-change 1
+        - Change Desc.
+
+### [05/20/2025] @ 11:43 A.M
+- Removed extra closing head tags from pages
+- Added comments for the unfortunate who decide to work on this website to guide and explain what the code does in index.html
+
 ### [05/20/2025] @ 11:28 A.M
 - Fixed style.css from being called to root to fix github pages on product pages
 - Added request from client
