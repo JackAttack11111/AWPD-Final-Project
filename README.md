@@ -9,6 +9,10 @@
     - Sub-change 1
         - Change Desc.
 
+### [05/22/2025] @ 00:00 AP.M
+- Added Favicon
+- Fixed Contact button not working on product pages
+
 ### [05/20/2025] @ 11:43 A.M
 - Removed extra closing head tags from pages
 - Added comments for the unfortunate who decide to work on this website to guide and explain what the code does in index.html
